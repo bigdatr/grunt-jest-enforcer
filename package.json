@@ -2,7 +2,6 @@
   "name": "grunt-jest-enforcer",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +17,19 @@
   ],
   "author": "",
   "license": "BSD",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
   "bugs": {
     "url": "https://github.com/bigdatr/grunt-jest-enforcer/issues"
   },
