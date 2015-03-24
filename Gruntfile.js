@@ -3,6 +3,9 @@
 module.exports = function (grunt) {
 
     grunt.initConfig({
+            pkg: {
+      name: 'grunt-jest-enforcer'
+    },
 
          jest_enforcer: {
             options: {
